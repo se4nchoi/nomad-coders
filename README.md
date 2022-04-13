@@ -1,8 +1,8 @@
 # nomad-coders
 Repository for following courses on NomadCoders
 
-> TYPECHAIN
-## Learned:
+## TYPECHAIN
+> Learned:
 1. Typescript basics
   - type assignment for variables/parameters, return types
   - class/interface to declare (much reminiscence to C++ and Java 🥲)
