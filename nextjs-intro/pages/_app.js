@@ -1,12 +1,12 @@
 import React from 'react'
+import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
 
 import "../styles/globals.css"
 
 function App({ Component, pageProps }) {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <Component {...pageProps}/>
       
       <style jsx global>{`
@@ -14,7 +14,7 @@ function App({ Component, pageProps }) {
           color: teal;
         }
       `}</style>
-    </>
+    </Layout>
   )
 }
 
